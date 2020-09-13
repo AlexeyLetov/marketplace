@@ -13,6 +13,10 @@ body {
   height: 100%;
 }
 
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -23,4 +27,34 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.button {
+  width: 190px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 55px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 27.5px;
+}
+
+.title-box {
+  height: 110px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(107, 110, 115, 0.1);
+  border-radius: 4px;
+  padding: 40px 30px;
+  &__text {
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #000;
+  }
 }
