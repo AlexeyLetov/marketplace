@@ -18,14 +18,15 @@ body {
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
+}
+
+.lnr {
+  font-family: "Linearicons-Free";
 }
 
 ul,
 li {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -35,14 +36,29 @@ li {
   padding: 0 15px;
 }
 
+.container-fluid {
+  max-width: 100%;
+  // margin: 0 auto;
+  // padding: 0 30px;
+}
+
+.speak {
+  font-size: 0;
+}
+
 .button {
-  width: 190px;
-  height: 55px;
+  max-width: 190px;
+  width: 100%;
+  min-height: 55px;
   font-size: 16px;
   font-weight: 400;
-  line-height: 55px;
+  line-height: 25px;
+  padding: 15px 10px;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
   border-radius: 27.5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .title-box {
@@ -57,4 +73,26 @@ li {
     font-weight: 400;
     color: #000;
   }
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #000;
+}
+
+.title-color {
+  color: #0674ec;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #555;
+  max-width: 672px;
+  margin: 0 auto 53px;
+  text-align: center;
 }
